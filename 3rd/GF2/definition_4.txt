@@ -1,0 +1,15 @@
+DEVICES
+G1 = NOR, 2;
+SG1 = SIGGEN, 2, 1;
+SG2 = SIGGEN, 3, 2;
+
+CONNECT
+SG1 -> G1.I1;
+SG2 -> G1.I2;
+
+MONITOR
+G1;
+SG1;
+SG2;
+
+END

@@ -1,0 +1,24 @@
+DEVICES
+X1 = XOR;
+X2 = XOR;
+G1 = AND,2;
+G2 = AND,2;
+G3 = OR, 2;
+SW1 = SWITCH, 1;
+SW2 = SWITCH, 1;
+SW3 = SWITCH, 1;
+
+CONNECT 
+SW1 -> X1.I1, G1.I1;
+SW2 -> X1.I2, G1.I2;
+SW3 -> X2.I2, G2.I2;
+X1 -> X2.I1, G2.I1;
+G1 -> G3.I2;
+G2 -> G3.I1;
+
+
+MONITOR
+X2;
+G3;
+
+END
