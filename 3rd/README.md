@@ -4,6 +4,8 @@
 
 ![userguide made for the project](https://github.com/KevSr/cambridge-proj-ug/blob/master/3rd/GF2/userguide.jpg)
 
+![Example of the simulation](https://github.com/KevSr/cambridge-proj-ug/blob/master/3rd/GF2/logsimexample.png)
+
 Completed in group of three, with [D. Wong](https://www.linkedin.com/in/daren-wong-06aa2a121/) and [D. L. Lai](https://www.linkedin.com/in/deeloon-lai/).  
 Uses OpenGL and wx packages for the GUI module.
 
